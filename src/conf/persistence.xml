@@ -9,6 +9,7 @@
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/test_db"/>
       <property name="javax.persistence.jdbc.user" value="your_username"/>
       <property name="javax.persistence.jdbc.password" value="your_password"/>
+
       
       <!-- Table creation and schema generation -->
       <property name="javax.persistence.schema-generation.database.action" value="create"/>
