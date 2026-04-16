@@ -5,7 +5,6 @@
  */
 
 
-
 function viewPassword(){
     var password = document.getElementById("password");
     var changeIcon = document.getElementById("changeicon");
