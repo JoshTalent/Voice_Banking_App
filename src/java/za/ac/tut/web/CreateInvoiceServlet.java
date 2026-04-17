@@ -3,6 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+
 package za.ac.tut.web;
 
 import java.io.IOException;
@@ -16,6 +18,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author acer
  */
+
 public class CreateInvoiceServlet extends HttpServlet {
 
     
@@ -49,8 +52,7 @@ public class CreateInvoiceServlet extends HttpServlet {
          
           RequestDispatcher dispa=request.getRequestDispatcher("newinvoiceoutcome.jsp");
           
-          dispa.forward(request, response);
-          
+          dispa.forward(request, response); 
           
     }
 
