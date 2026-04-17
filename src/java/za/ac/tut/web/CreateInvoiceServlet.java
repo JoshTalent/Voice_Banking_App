@@ -14,13 +14,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
 /**
  *
  * @author acer
  */
 
-public class CreateInvoiceServlet extends HttpServlet {
 
+public class CreateInvoiceServlet extends HttpServlet {
     
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -28,7 +29,8 @@ public class CreateInvoiceServlet extends HttpServlet {
       //get the paramter
         String name=request.getParameter("name");
           String description=request.getParameter("description");
-     
+
+                
           String compname=request.getParameter("compname");
           String address=request.getParameter("address");
           String payment=request.getParameter("payment");
